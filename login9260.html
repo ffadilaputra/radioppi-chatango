@@ -1,0 +1,244 @@
+
+
+
+  
+  
+  
+
+
+
+
+<!DOCTYPE html PUBLIC>
+<html class="desktop">
+
+ 
+<!-- Mirrored from radioppiduniachat.chatango.com/login?bGFuZD1oZWxwP2hlbHBfYWNjb3VudCNkZWxldGU= by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Apr 2021 06:26:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/styles002.css">
+	  
+	  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  
+  
+  <title>Log-in
+</title>
+  
+  
+
+  
+    
+  <script>
+   function bIsIE() {
+     var myNav = navigator.userAgent.toLowerCase();
+     return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+   }
+   var ie = bIsIE();
+   if (ie != false &&  ie < 9) {
+    var d = document,
+    ie8CSSoverrides = d.createElement('style');
+    d.getElementsByTagName('head')[0].appendChild(ie8CSSoverrides);
+    ie8CSSoverrides.setAttribute('type', 'text/css');
+    ie8CSSoverrides.styleSheet.cssText = ""
+        + "INPUT[type='checkbox'] {display:inline-block !important}"
+        + "INPUT[type='checkbox'] + label span {display:none; !important}"
+        + "#loginbox .inputtext { height:1.2em; }"; 
+   }
+  </script>
+
+  
+  
+  <!-- Place this tag in your head or just before your close body tag -->
+  <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+  
+ </head>
+
+
+<body      class="desktop"
+  
+>
+ <div class="container">
+ 
+	<div class="uppermenu">
+		<span id="clogo"">
+		
+		  <a href="index.html" ><img id="LOGO" src="images/html5/homepage/logo.png"></a>
+		
+		</span>
+		<div class="top-links">
+		
+		
+			<ul/>
+				<li><a href="help.html"  >Help</a>
+				
+				
+				<li><a href="signupdir.html"  >Sign&nbsp;up</a>
+				
+				
+				
+				
+			</ul>
+			
+			
+			
+			
+			
+			
+			
+
+		
+		</div>
+	</div>
+
+
+ 
+<div class="login-signup-content-wrap">
+<div class='form-wrap'>
+	<!-- google_ad_section_start(weight=ignore) -->
+	 <form method=post action="https://chatango.com/login">
+		
+
+
+
+<div class="content_box_head" style="width:100%; " >
+<span class="title">Log in</span></div>
+
+<div class="content_box " style="width:100%; " >
+<div class="content_box_inner">
+
+		  <table cellpadding=0 cellspacing=0 border=0 id="loginbox">
+		  
+			<tr><td><input class=inputtext type=text name="user_id" value="" maxlength=128 placeholder="Email or user name"></td></tr>
+		
+		
+			  <tr><td><input class=inputtext type=password name="password" maxlength=20 placeholder="Password"></td></tr>
+			  <tr><td><input id="storecookie" type=checkbox checked name="storecookie"/><label for="storecookie"><span></span>Remember me</label></td></tr>
+			  <tr><td class=regr>
+			  	<input type="submit" class="yellow_but" value="Log in">
+		
+	  		</td></tr>
+		
+			  <tr><td><a href="forgot.html">Forgot password?</a></td></tr>
+		
+			  <tr><td class=regc></td></tr>
+		  </table>
+		
+</div>
+</div>
+
+	 
+	 <input type=hidden name="landing" value="aGVscD9oZWxwX2FjY291bnQjZGVsZXRl">
+	 
+	 <input type=hidden name="checkerrors" value="yes">
+	 <!-- google_ad_section_end -->
+	 </form>
+
+</div>
+
+
+</div>
+
+<br style="clear:both">
+<script>
+  chatangoDeviceType = {
+    MOBILE:"m",
+    TABLET:"t",
+    DESKTOP:"d"
+  }
+  chatango_device_type = chatangoDeviceType.DESKTOP;
+  function setScale(){
+
+    var uas = navigator.userAgent.toLowerCase();
+
+    if (uas.indexOf('mobile') != -1
+        && uas.indexOf('kindle') == -1
+        && uas.indexOf('ipad') == -1) {
+      chatango_device_type = chatangoDeviceType.MOBILE;
+    } else if (uas.indexOf('android') != -1
+        || uas.indexOf('ipad') != -1
+        || uas.indexOf('silk') != -1) {
+      chatango_device_type = chatangoDeviceType.TABLET;
+    } else {
+      chatango_device_type = chatangoDeviceType.DESKTOP;
+    }
+    var desktopScale = 80;
+    var parentWindowArea = window.innerWidth * window.innerHeight;
+    var parentSqrt = Math.sqrt(parentWindowArea);
+    var divisor;
+    var scale;
+    var zoom = document.documentElement.clientWidth / window.innerWidth;
+    
+    switch (chatango_device_type) {
+      case chatangoDeviceType.MOBILE:
+        divisor = 4;
+        scale = Math.round((parentSqrt / divisor) / 10) * 10;
+        break;
+      case chatangoDeviceType.TABLET:
+        divisor = 7; 
+        scale = Math.round((parentSqrt / divisor) / 10) * 10;
+        break;
+      case chatangoDeviceType.DESKTOP:
+      default:
+        scale = desktopScale;
+    }    
+    addCss("body{font-size:" + scale + "%}");
+    //console.log("scale: " + scale);
+    //console.log(document.body.style.fontSize);
+    //console.log("zoom: " + zoom);
+  }
+  
+  function addCss(cssCode) {
+    var styleElement = document.createElement("style");
+    styleElement.type = "text/css";
+    if (styleElement.styleSheet) {
+      styleElement.styleSheet.cssText = cssCode;
+    } else {
+      styleElement.appendChild(document.createTextNode(cssCode));
+    }
+    document.getElementsByTagName("head")[0].appendChild(styleElement);
+  }
+  setScale();
+</script>
+
+
+ 
+ <div class="bottombar has-border fix-to-bottom">
+	<ul>
+    	<li><a href="help.html" >Help</a>
+    	<li><a href="page6f49.html?terms"  >Terms of use and privacy policy</a>
+    	
+	</ul>
+</div>
+
+ 
+ </div>
+ 
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7965405-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+ 
+ </body>
+
+<!-- Mirrored from radioppiduniachat.chatango.com/login?bGFuZD1oZWxwP2hlbHBfYWNjb3VudCNkZWxldGU= by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Apr 2021 06:26:47 GMT -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

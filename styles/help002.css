@@ -1,0 +1,217 @@
+h1, h2 {
+  font-family: "Roboto",sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased!important;
+  -webkit-text-stroke: .012em!important;
+}
+
+
+h2 {
+	display: block;
+	font-size: 150%;
+	margin-top:70px;
+}
+
+h2.top_title {
+	margin-top:20px;
+}
+
+h3 {
+	font-size: 120%;
+	line-height: 180%;
+}
+
+h4 {
+	font-size: 115%;
+  color: #666;
+	margin-bottom:0;	
+}
+
+.ui {
+	font-weight:bold;
+	color:#333333;
+}
+
+.page_navigation {
+	padding: 5px 2px 15px 0;
+	margin:  0px;
+}
+
+.page_navigation li {
+	list-style-type:none;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: .3em;
+}
+
+.touch .page_navigation li{
+  font-size: 110%;
+  padding-bottom: 1.3em;
+}
+
+.link_to_top {	
+	float:right;
+}
+
+#menu_table {
+	table-layout:fixed;
+}
+
+#menu_table td {
+	width:33%;
+	vertical-align:top;
+	padding-right:2em;
+}
+.acct_col {
+	margin-bottom:5px;
+	float:left;
+	width:180px;	
+}
+
+#acct_section {
+	width:360px;	
+}
+.link_div {
+	float:left;
+	padding-right:10px;	
+}
+
+input.email_input {
+	width:180px;	
+}
+.code {
+	color:#999999;
+	font-family:Lucida Console, Monaco, monospace;
+	padding:20px;
+	font-size:10px;	
+}	
+.error {
+	background:#c00;
+	color:#FFF;
+	padding:10px;
+}
+
+#errorbox  { 
+	width: 100%;
+	background: #c00;
+	padding: 5px 0px; 
+	margin-bottom:10px;
+}
+.group_list {
+	width:100%;	
+}
+.del_gp_td {
+	padding:10px;
+	border-bottom:1px solid #DDDDDD;	
+}
+.hm_gp_title a {
+	color:#000000;
+	text-decoration:none;
+}
+.yellow_but.left_mar {
+  margin-left: .3em;
+}
+
+.left_form_td {
+	text-align:right;
+	padding-right:10px;
+}
+.unused_acct_table td{	
+	padding-right:15px;
+}
+.captcha_image {
+	margin-left:2px;	
+}
+.captcha_image_horiz {
+	margin-left:2px;
+	margin-bottom:5px;
+	vertical-align: middle;	
+}
+
+.error_input {
+	border-color:#CC0000;
+	border-style:solid;	
+}
+#acct_table {
+	margin-left:20px;	
+	border-collapse:collapse;
+}
+#acct_table td {
+	border:1px solid #DDDDDD;
+	padding:5px;
+}
+#acct_table td.header {
+	border:none;
+	background-color:#FFFFFF;
+}
+
+table {
+  font-size: inherit;
+}
+
+.touch div.container {
+  min-width: initial;
+  min-height: initial;
+  width: 100%;
+}
+
+div#HELP_NAV {
+	width: 100%;
+	border-bottom: 0084ef solid 1px;
+	padding-top: 1em;
+	padding-bottom: .8em;
+	overflow: hidden;
+	position: relative;
+}
+
+div.help-nav-tab {
+	float: left;
+	padding-right: 2em;
+	color: #0084ef;
+	cursor: pointer;
+	font-family: "Roboto",sans-serif;
+  font-size: 150%;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased!important;
+  -webkit-text-stroke: .015em!important;
+}
+
+.mobile div.help-nav-tab {
+  font-size: 140%;
+}
+
+div.help-nav-tab.selected {
+  color: #000;
+}
+
+div.help-nav-selector {
+	position: absolute;
+	height: .3em;
+	width: 5em;
+	background-color: #0084ef;
+	bottom: 0;
+	 transition: left .2s ease-in;
+}
+
+div.help-icon {
+	width:44px;
+	height:34px; 
+	background:url(../images/help/help_icons.png);
+	display:inline-block;
+	vertical-align:middle;
+	margin-right: 1em;
+}
+
+div.help-icon.hide-icon {
+	display:none;
+}
+
+div#SO_CONTENT,
+div#CU_CONTENT{
+	padding-top: 1.5em;
+}
+
+div.sub-section {
+	overflow:hidden;
+	margin-top:2em;
+}

@@ -1,0 +1,258 @@
+
+
+
+  
+  
+  
+
+
+
+
+<!DOCTYPE html PUBLIC>
+<html class="desktop">
+
+ 
+<!-- Mirrored from radioppiduniachat.chatango.com/help?help_account_compromised by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Apr 2021 06:26:29 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/styles002.css">
+	  
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="styles/help002.css">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui">
+
+  
+  
+  <title>Chatango - Help - Account</title>
+  
+  
+  
+<script src=javascript/flashversion.js></script>
+
+  
+    
+  <script>
+   function bIsIE() {
+     var myNav = navigator.userAgent.toLowerCase();
+     return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+   }
+   var ie = bIsIE();
+   if (ie != false &&  ie < 9) {
+    var d = document,
+    ie8CSSoverrides = d.createElement('style');
+    d.getElementsByTagName('head')[0].appendChild(ie8CSSoverrides);
+    ie8CSSoverrides.setAttribute('type', 'text/css');
+    ie8CSSoverrides.styleSheet.cssText = ""
+        + "INPUT[type='checkbox'] {display:inline-block !important}"
+        + "INPUT[type='checkbox'] + label span {display:none; !important}"
+        + "#loginbox .inputtext { height:1.2em; }"; 
+   }
+  </script>
+
+  
+  
+  <!-- Place this tag in your head or just before your close body tag -->
+  <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+  
+ </head>
+
+
+<body  >
+ <div class="container">
+ 
+
+	<div class="uppermenu">
+		<span id="clogo"">
+		
+		  <a href="index.html" ><img id="LOGO" src="images/html5/homepage/logo.png"></a>
+		
+		</span>
+		<div class="top-links">
+		
+		
+			<ul/>
+				<li><a href="help.html"  >Help</a>
+				
+				
+				<li><a href="signupdir.html"  >Sign&nbsp;up</a>
+				
+				
+				
+			</ul>
+			
+			
+			
+			
+			<div class="yellow_but"><a href="login.html">Log&nbsp;in</a></div>
+			
+			
+			
+			
+			
+			
+
+		
+		</div>
+	</div>
+
+
+
+ <div id="help_content">
+	
+	
+	
+		
+			
+			
+			
+				
+				
+				
+			 
+			
+   
+
+			<form method=post action="https://radioppiduniachat.chatango.com/help_form_submitted">
+			
+			
+			
+			
+			
+			
+			<h2 class="top_title">Compromised Account</h2>
+<script>
+
+function accountCompromised(){
+	var form = document.forms[0]
+	var acct=form.acct.value;
+	if(acct == ""){
+		alert("Please provide the user name of the account that has been compromised");
+		return;
+	}
+	if (acct.search(/[^a-zA-Z0-9 /_/-]/g) != -1)
+	{
+		alert("This was not a valid user name");
+	    return;
+	}
+	var on_recent = document.getElementById("on_recent").checked;
+	var guess = document.getElementById("guess").checked;
+	var shared = document.getElementById("shared").checked;
+	
+	if(!on_recent){
+		document.location = "help8913.html?help_compromised_recent";
+		return;
+	}
+	if(shared){
+		document.location = "help5e18.html?help_compromised_shared";
+		return;
+	}
+	if(guess){
+		document.location = "help753d.html?help_compromised_guessable";
+		return;
+	}
+	form.submit()
+}
+</script>
+	<table>
+	<tr>
+	<td>User name of the compromised account: <td><input type="text" id="acct" name="acct" maxlength=20 style="width:100%;" onKeyPress="if (event.which == 13) return false;"/><br />
+	<tr>
+	<td>I logged into this account in the last 3 days: <td><input id="on_recent" type=checkbox name="on_recent"/><label for="on_recent"><span></span></label>
+	<tr>
+	<td>The password was a dictionary word: <td><input id="guess" type=checkbox name="guess"/><label for="guess"><span></span></label>
+	<tr>
+	<td>I shared this account with another user: <td><input id="shared" type=checkbox name="shared"/><label for="shared"><span></span></label>
+	<tr>
+	<td>Your email (so we can get back to you): <td><input type="text" id="email" name="email" maxlength=50 style="width:100%;" onKeyPress="if (event.which == 13) return false;"/><br />
+	<tr>
+	<td>Short explanation (optional): <td><textarea class=inputtext style="width:100%; margin-top:3px;" name='comments' id='comments' rows=3 maxlength=128></textarea><br /><br />
+	<tr>
+	<td><td><input type="button" class="yellow_but" value="Submit" onclick="javacript:accountCompromised();">
+	<br clear="all">
+	</table>
+ <input type="hidden" name="form_name" value="account_compromised">
+
+
+
+			
+			
+			
+			
+			
+				
+			
+			
+			
+			
+				<input type="hidden" value="None" name="fver">
+				<input type="hidden" value="None" name="wsocket">
+				<script>
+
+					if("WebSocket" in window){
+						ws = 'yes';
+					}
+					else{
+						ws = 'no';
+					}
+					try{
+						fv = getFlashVersion();
+					} catch (e) {
+						fv = 'Undetected';
+					}
+					document.getElementsByName('fver')[0].value = fv;
+					document.getElementsByName('wsocket')[0].value = ws;
+				</script>
+			
+			
+			</form>
+		
+	
+	
+		<br>
+	  
+
+</div>
+
+ 
+<div class="bottombar has-border fix-to-bottom">
+	<ul>
+    	<li><a href="help.html" >Help</a>
+    	<li><a href="page6f49.html?terms"  >Terms of use and privacy policy</a>
+    	
+	</ul>
+</div>
+
+<img src="images/pixel.gif" border="0" width="1" height="700" id="min_width_gif"/> 
+
+ </div>
+ 
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7965405-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+ 
+ </body>
+
+<!-- Mirrored from radioppiduniachat.chatango.com/help?help_account_compromised by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Apr 2021 06:26:33 GMT -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
